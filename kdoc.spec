@@ -6,7 +6,7 @@ Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
 Summary(pt_BR):	Ferramenta de documentação do KDE
 Name:		kdoc
 Version:	2.2.2
-Release:	1
+Release:	2
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
@@ -20,7 +20,8 @@ BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_prefix		/usr/X11R6
+%define		_prefix		/usr/X11R6
+%define		_mandir		%{_prefix}/man
 
 %description
 A perl program to produce html files from javadoc-style comments.

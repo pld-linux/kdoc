@@ -19,7 +19,7 @@ Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen.
 
 %build
 ./configure --prefix=/usr
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT

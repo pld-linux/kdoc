@@ -6,7 +6,7 @@ Release:	1
 Copyright:	GPL
 Group:		Utilities/Text
 Source:		%{name}-%{version}.tar.gz
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 A perl program to produce html files from javadoc-style comments.

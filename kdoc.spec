@@ -5,13 +5,12 @@ Summary(es):	K Desktop Environment - Sistema de documentación C++ e IDL
 Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
 Summary(pt_BR):	Ferramenta de documentação do KDE
 Name:		kdoc
-Version:	2.2.2
-Release:	2
-Epoch:		1
+Version:	2.0a54
+Release:	1
+Epoch:		2
 License:	GPL
 Group:		Applications/Text
-Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.bz2
-URL:		http://www.ph.unimelb.edu.au/~ssk/kde/kdoc/
+Source0:	ftp://ftp.kde.org/pub/kde/stable/latest/src/src/%{name}-%{version}.tar.bz2
 BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	perl >= 5.6.1

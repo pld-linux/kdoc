@@ -17,8 +17,6 @@ BuildRequires:	perl >= 5.6.1
 BuildRequires:	rpm-perlprov
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
-%define		_mandir		%{_prefix}/man
 
 %description
 A perl program to produce html files from javadoc-style comments.

@@ -5,7 +5,7 @@ Summary(es):	K Desktop Environment - Sistema de documentación C++ e IDL
 Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
 Summary(pt_BR):	Ferramenta de documentação do KDE
 Name:		kdoc
-Version:	2.2.1
+Version:	2.2.2
 Release:	1
 Epoch:		1
 License:	GPL

@@ -6,7 +6,7 @@ Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
 Summary(pt_BR):	Ferramenta de documentação do KDE
 Name:		kdoc
 Version:	2.0a54
-Release:	1
+Release:	2
 Epoch:		2
 License:	GPL
 Group:		Applications/Text
@@ -14,8 +14,8 @@ Source0:	ftp://ftp.kde.org/pub/kde/stable/latest/src/src/%{name}-%{version}.tar.
 # Source0-md5:	700d735518698e6bccf3f26590c487f5
 BuildRequires:	automake
 BuildRequires:	autoconf
-BuildRequires:	perl >= 5.6.1
-BuildRequires:	rpm-perlprov
+BuildRequires:	perl-devel >= 1:5.6.1
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 

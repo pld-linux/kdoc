@@ -1,13 +1,12 @@
-Summary: A perl program to produce html files from javadoc-style comments.
-Summary(de): Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen.
-Name: kdoc
-Version: 1.17
-Release: 1
-Copyright: GPL
-Group: Utilities/Text
-Source: kdoc-%{PACKAGE_VERSION}.tar.gz
-Packager: Harald Hoyer
-BuildRoot: /tmp/kdoc-root
+Summary:	A perl program to produce html files from javadoc-style comments.
+Summary(de):	Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen.
+Name:		kdoc
+Version:	1.17
+Release:	1
+Copyright:	GPL
+Group:		Utilities/Text
+Source:		%{name}-%{version}.tar.gz
+BuildRoot:	/tmp/%{name}-%{version}-root
 
 %description
 A perl program to produce html files from javadoc-style comments.
@@ -16,7 +15,7 @@ A perl program to produce html files from javadoc-style comments.
 Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen.
 
 %prep
-%setup
+%setup -q
 
 %build
 ./configure --prefix=/usr
@@ -43,3 +42,8 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/kdoc/kdocHTML.pm
 /usr/share/kdoc/kdocTeX.pm
 /usr/share/kdoc/kdocMan.pm
+
+%changelog
+* Sat Jul 10 1999
+  []
+- based on spec written by Harald Hoyer..

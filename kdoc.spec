@@ -42,8 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/kdoc/kdocHTML.pm
 /usr/share/kdoc/kdocTeX.pm
 /usr/share/kdoc/kdocMan.pm
-
-%changelog
-* Sat Jul 10 1999
-  []
-- based on spec written by Harald Hoyer..

@@ -11,6 +11,7 @@ Epoch:		2
 License:	GPL
 Group:		Applications/Text
 Source0:	ftp://ftp.kde.org/pub/kde/stable/latest/src/src/%{name}-%{version}.tar.bz2
+# Source0-md5:	700d735518698e6bccf3f26590c487f5
 BuildRequires:	automake
 BuildRequires:	autoconf
 BuildRequires:	perl >= 5.6.1

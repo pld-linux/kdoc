@@ -1,5 +1,5 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	A perl program to produce html files from javadoc-style comments
+Summary:	A Perl program to produce html files from javadoc-style comments
 Summary(de):	Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen
 Summary(es):	K Desktop Environment - Sistema de documentación C++ e IDL
 Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
@@ -20,7 +20,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 
 %description
-A perl program to produce html files from javadoc-style comments.
+A Perl program to produce html files from javadoc-style comments.
 
 %description -l de
 Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu
@@ -32,7 +32,7 @@ CORBA e en el lenguage C++. Los docs poden ser mesclados en el source
 con mensagens especiales en lo mismo.
 
 %description -l pl
-Program w perlu do robienia dokumentacji w html na podstawie
+Program w Perlu do robienia dokumentacji w html na podstawie
 komentarzy w stylu javadoc.
 
 %description -l pt_BR

@@ -10,9 +10,6 @@ Release:	2
 Epoch:		1
 License:	GPL
 Group:		Applications/Text
-Group(de):	Applikationen/Text
-Group(fr):	Utilitaires/Texte
-Group(pl):	Aplikacje/Tekst
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{version}/src/kdoc-%{version}.tar.bz2
 URL:		http://www.ph.unimelb.edu.au/~ssk/kde/kdoc/
 BuildRequires:	automake

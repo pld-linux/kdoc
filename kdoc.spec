@@ -44,7 +44,7 @@ Ferramentas de documentação para o KDE.
 
 %build
 aclocal
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 

@@ -23,7 +23,7 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install DESTDIR=$RPM_BUILD_ROOT
 gzip -9 $RPM_BUILD_ROOT/usr/man/man?/*
 
 %clean

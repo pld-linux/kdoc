@@ -1,9 +1,9 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Perl program to produce html files from javadoc-style comments
-Summary(de):	Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen
-Summary(es):	K Desktop Environment - Sistema de documentación C++ e IDL
-Summary(pl):	Narzêdzie do robienia dokumentacji html z komentarzy
-Summary(pt_BR):	Ferramenta de documentação do KDE
+Summary(de.UTF-8):   Ein Perl Programm um html Dateien aus javadoc Ã¤hnlichen Kommentaren zu erzeugen
+Summary(es.UTF-8):   K Desktop Environment - Sistema de documentaciÃ³n C++ e IDL
+Summary(pl.UTF-8):   NarzÄ™dzie do robienia dokumentacji html z komentarzy
+Summary(pt_BR.UTF-8):   Ferramenta de documentaÃ§Ã£o do KDE
 Name:		kdoc
 Version:	2.0a54
 Release:	2
@@ -22,21 +22,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A Perl program to produce html files from javadoc-style comments.
 
-%description -l de
-Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu
+%description -l de.UTF-8
+Ein Perl Programm um html Dateien aus javadoc Ã¤hnlichen Kommentaren zu
 erzeugen.
 
-%description -l es
-KDOC crian una documentación de referencia cruzada en bibliotecas IDL
+%description -l es.UTF-8
+KDOC crian una documentaciÃ³n de referencia cruzada en bibliotecas IDL
 CORBA e en el lenguage C++. Los docs poden ser mesclados en el source
 con mensagens especiales en lo mismo.
 
-%description -l pl
+%description -l pl.UTF-8
 Program w Perlu do robienia dokumentacji w html na podstawie
 komentarzy w stylu javadoc.
 
-%description -l pt_BR
-Ferramentas de documentação para o KDE.
+%description -l pt_BR.UTF-8
+Ferramentas de documentaÃ§Ã£o para o KDE.
 
 %prep
 %setup -q

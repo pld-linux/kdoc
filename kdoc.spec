@@ -1,9 +1,9 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	A Perl program to produce html files from javadoc-style comments
-Summary(de.UTF-8):   Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen
-Summary(es.UTF-8):   K Desktop Environment - Sistema de documentación C++ e IDL
-Summary(pl.UTF-8):   Narzędzie do robienia dokumentacji html z komentarzy
-Summary(pt_BR.UTF-8):   Ferramenta de documentação do KDE
+Summary(de.UTF-8):	Ein Perl Programm um html Dateien aus javadoc ähnlichen Kommentaren zu erzeugen
+Summary(es.UTF-8):	K Desktop Environment - Sistema de documentación C++ e IDL
+Summary(pl.UTF-8):	Narzędzie do robienia dokumentacji html z komentarzy
+Summary(pt_BR.UTF-8):	Ferramenta de documentação do KDE
 Name:		kdoc
 Version:	2.0a54
 Release:	2

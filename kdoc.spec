@@ -6,7 +6,7 @@ Summary(pl.UTF-8):	Narzędzie do robienia dokumentacji html z komentarzy
 Summary(pt_BR.UTF-8):	Ferramenta de documentação do KDE
 Name:		kdoc
 Version:	2.0a54
-Release:	2
+Release:	3
 Epoch:		2
 License:	GPL
 Group:		Applications/Text
